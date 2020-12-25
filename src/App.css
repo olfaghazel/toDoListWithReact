@@ -1,0 +1,58 @@
+* {
+  background-color: #e6cccc;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+/********************Add****************/
+.add {
+  background-color: #993333;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.addBox {
+  width: 800px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+.addBox:focus {
+  border: none;
+}
+
+.select {
+  max-width: 150px;
+  background-color: transparent;
+  border: none;
+}
+.select:focus {
+  border: none;
+}
+.select option {
+  background-color: #993333;
+  color: white;
+}
+.select option:hover {
+  background-color: white;
+  color: black;
+}
+
+/******************Item***************/
+
+.item {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.button {
+  margin: 20px;
+  min-width: 90px;
+}
